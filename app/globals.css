@@ -5,3 +5,10 @@
 .links-container a {
   @apply hover:text-white transition-all duration-300;
 }
+
+.link-container-2 a {
+  @apply text-white  transition-all duration-300  hover:bg-white hover:text-black rounded-lg p-2;
+}
+.link-container-3 a {
+  @apply block text-white  transition-all duration-300  hover:bg-white hover:text-black rounded-lg p-2;
+}
