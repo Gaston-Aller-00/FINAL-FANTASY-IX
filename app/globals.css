@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.links-container a {
+  @apply hover:text-white transition-all duration-300;
+}
